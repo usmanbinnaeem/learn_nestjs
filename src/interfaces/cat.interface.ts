@@ -1,5 +1,5 @@
 /* eslint-disable prettier/prettier */
-export class CreateCatDto {
+export interface Cat {
     name: string;
     age: number;
     breed: string;
